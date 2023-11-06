@@ -24,9 +24,11 @@ const Navigation = () => {
     <div>
       <Navbar className="navbar-container">
         <div className="nav-right">
-          <Navbar.Toggle className="navbar-menu" onClick={toggleMenu}>
-            <img src="/images/portfolio-icons/ic_menu.png" alt="Menu" />
-          </Navbar.Toggle>
+          <div className="hamburger">
+            <Navbar.Toggle className="navbar-menu" onClick={toggleMenu}>
+              <img src="/images/portfolio-icons/ic_menu.png" alt="Menu" />
+            </Navbar.Toggle>
+          </div>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="hide-links">
               {menuList.map((link) => (
@@ -68,6 +70,9 @@ const Navigation = () => {
                     {link.text}
                   </Nav.Link>
                 ))}
+              </div>
+              <div className="small-ellipse">
+                <img src="/images/portfolio-icons/small-ellipse.png" alt="Icon" />
               </div>
             </div>
           </div>
