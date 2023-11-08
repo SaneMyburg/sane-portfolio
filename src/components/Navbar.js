@@ -48,6 +48,15 @@ const Navigation = () => {
       {isMenuOpen && (
         <div className="overlay">
           <div className="overlay-content">
+            <div className="line-start lines">
+              <img src="/images/portfolio-icons/line.png" alt="Line" />
+            </div>
+            <div className="line-middle lines">
+              <img src="/images/portfolio-icons/line.png" alt="Line" />
+            </div>
+            <div className="line-end lines">
+              <img src="/images/portfolio-icons/line.png" alt="Line" />
+            </div>
             <button type="button" className="close-menu" onClick={closeMenu}>
               <img src="/images/portfolio-icons/ic_close_menu.png" alt="Close" />
             </button>

@@ -55,7 +55,7 @@
     background-color: #1b1b1e;
     position: absolute;
     top: 1.9375rem;
-    right: 1.9rem;
+    right: 1.1rem;
     border: none;
   }
 
@@ -69,21 +69,22 @@
     z-index: 1000;
   }
 
-  .overlay::before,
-  .overlay::after {
-    content: "";
-    width: 1px;
-    height: 100%;
-    left: 10px;
-    background-color: #fff; /* Border color */
+  .line-start {
+    left: 5%;
   }
 
-  .overlay::before {
-    content: "";
+  .line-middle {
+    left: 50%;
   }
 
-  .overlay::after {
-    content: "";
+  .line-end {
+    left: 95%;
+  }
+
+  .lines {
+    position: absolute;
+    width: 3525px;
+    border: 1px;
   }
 
   .overlay-content {
