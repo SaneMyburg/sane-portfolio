@@ -1,3 +1,78 @@
 .home-container {
   background-color: #1b1b1e;
 }
+
+@media (max-width: 1024px) {
+  .home-main {
+    padding-top: 5px;
+  }
+
+  .numbered-menu {
+    opacity: 20%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    line-height: 75px;
+    color: #fff;
+    margin-left: 5%;
+  }
+
+  .intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    margin-left: 6%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.5rem;
+    line-height: 18px;
+    color: #fff;
+  }
+
+  .mobile-ellipse {
+    position: absolute;
+    top: 24%;
+    left: 80%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .name {
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    margin-left: 5%;
+  }
+
+  .intro-para {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 18px;
+    margin: 25px 5% 5% 5%;
+    color: #fff;
+  }
+
+  .my-works {
+    margin: 5%;
+    font-family: 'Roboto', sans-serif;
+    color: #db4747;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.09px;
+  }
+
+  .home-main hr {
+    width: 70px;
+    margin: 5%;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 5%;
+    padding-bottom: 20px;
+  }
+}

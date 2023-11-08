@@ -38,12 +38,12 @@
     border: none !important;
     top: 2rem;
     position: absolute;
-    right: 2rem;
+    right: 1.1rem;
   }
 
   .hamburger {
     width: 100%;
-    height: 100px;
+    height: 40px;
     background-color: #1b1b1e !important;
   }
 
