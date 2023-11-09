@@ -33,10 +33,15 @@ const Hello = () => (
       </div>
       <hr />
       <div className="socials">
-        <img src="/images/portfolio-icons/github-icon.png" alt="GitHub-Icon" />
-        <img src="/images/portfolio-icons/linkedin-icon.png" alt="LinkedIn-Icon" />
-        <img src="/images/portfolio-icons/medium-icon.png" alt="Medium-Icon" />
-        <img src="/images/portfolio-icons/angellist-icon.png" alt="Angellist-Icon" />
+        <a href="https://github.com/SaneMyburg" target="_blank" rel="noopener noreferrer">
+          <img src="/images/portfolio-icons/github-icon.png" alt="GitHub-Icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/sanemyburg/" target="_blank" rel="noopener noreferrer">
+          <img src="/images/portfolio-icons/linkedin-icon.png" alt="LinkedIn-Icon" />
+        </a>
+        <a href="https://medium.com/@sane.myburg" target="_blank" rel="noopener noreferrer" className="medium">
+          <img src="/images/portfolio-icons/medium-icon.png" alt="Medium-Icon" />
+        </a>
       </div>
     </div>
   </div>
