@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hello = () => (
-  <div className="home-container">
+  <div className="hello-container">
     <div className="home-main">
       <div className="numbered-menu">
         <p>01</p>
@@ -10,14 +10,11 @@ const Hello = () => (
         <p>Hello&apos; I&lsquo;m</p>
       </div>
       <div>
-        <img src="/images/portfolio-icons/medium-ellipse.png" alt="Mediumellipse" className="mobile-ellipse" />
+        <img src="/images/portfolio-icons/medium-ellipse.png" alt="Mediumellipse" className="mobile-ellipse desktop-ellipse" />
       </div>
       <div className="name">
-        <p>
-          Sane
-          <br />
-          Myburg
-        </p>
+        <p>Sane</p>
+        <p className="last-name">Myburg</p>
       </div>
       <div className="intro-para">
         <p>
