@@ -21,8 +21,8 @@ const Navigation = () => {
   };
 
   return (
-    <div>
-      <Navbar className="navbar-container">
+    <div className="navbar-container">
+      <Navbar className="navbar-content">
         <div className="nav-right">
           <div className="hamburger">
             <Navbar.Toggle className="navbar-menu" onClick={toggleMenu}>
